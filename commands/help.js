@@ -5,9 +5,9 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || 'Locy-Modz'}*  
    Version: *${settings.version || '3.0.0'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
+   by ${settings.botOwner || 'Locy Modz'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
@@ -216,7 +216,6 @@ async function helpCommand(sock, chatId, message) {
 ╔═══════════════════╗
 💻 *Github Commands:*
 ║ ➤ .git
-║ ➤ .github
 ║ ➤ .sc
 ║ ➤ .script
 ║ ➤ .repo
@@ -238,7 +237,7 @@ Join our channel for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterName: 'Locy-Modz',
                         serverMessageId: -1
                     }
                 }
@@ -252,7 +251,7 @@ Join our channel for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD by Mr Unique Hacker',
+                        newsletterName: 'Locy Ser Modz',
                         serverMessageId: -1
                     } 
                 }
